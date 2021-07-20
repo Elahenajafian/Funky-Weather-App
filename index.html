@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funky Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card border-info my-3">
+        <div class="card-body mx-1 my-1">
+          <div class="card border-info">
+            <div class="card-header">Quote</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="input-group">
+          <input
+            type="search"
+            class="form-control mx-3"
+            placeholder="Where on earth do you wanna go!?"
+          />
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card-body mx-1 mt-4">
+              <div class="d-grid gap-2 d-block">
+                <button class="btn btn-outline-info py-4" type="button">
+                  Sydney
+                </button>
+                <button class="btn btn-outline-info py-4 px-5" type="button">
+                  Tokyo
+                </button>
+                <button class="btn btn-outline-info py-4 px-5" type="button">
+                  Paris
+                </button>
+                <button class="btn btn-outline-info py-4 px-5" type="button">
+                  London
+                </button>
+                <button class="btn btn-outline-info py-4 px-5" type="button">
+                  Dubai
+                </button>
+                <button class="btn btn-outline-info py-4 px-5" type="button">
+                  Amsterdam
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-info mt-5 pb-5">
+              <div class="card-body">
+                <h5 class="card-title fs-1 my-5">Tehran</h5>
+                <div class="my-5">Mostly sunny</div>
+                <div class="mb-3 mt-5">Precipitation: 0%</div>
+                <div class="my-3">Humidity: 19%</div>
+                <div class="my-3">Wind: 18 km/h</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-info mt-5 pb-3 mx-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <ul>
+                      <li class="my-4">Sun</li>
+                      <li class="my-4">Mon</li>
+                      <li class="my-4">Tue</li>
+                      <li class="my-4">Wed</li>
+                      <li class="my-4">Thu</li>
+                      <li class="my-4">Fri</li>
+                      <li class="mt-4">Sat</li>
+                    </ul>
+                  </div>
+                  <div class="col-6">icons</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
