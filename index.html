@@ -15,8 +15,8 @@
     <script src="src/app.js"></script>
   </head>
   <body>
-    <div class="container" id="wrapper">
-      <div class="card border-info mt-4 mx-4">
+    <div class="container">
+      <div class="card border-info mt-4 mx-4" id="content-card">
         <div class="card-body mx-1 mb-1">
           <div class="row my-3">
             <div class="col-8">
@@ -25,8 +25,13 @@
                   type="search"
                   class="form-control mx-3 btn-outline-info py-4"
                   placeholder="Type a city..."
+                  id="search-bar"
                 />
-                <button type="button" class="btn btn-outline-info px-5 mx-2">
+                <button
+                  type="button"
+                  class="btn btn-outline-info px-5"
+                  id="search-button"
+                >
                   Search
                 </button>
               </div>
@@ -79,7 +84,10 @@
             </div>
 
             <div class="col-4">
-              <div class="card border-info mt-5">
+              <div
+                class="card border-info mt-5"
+                id="current-weather-information"
+              >
                 <div class="card-body">
                   <div class="row">
                     <h5 class="card-title fs-1 my-5">Tehran</h5>
@@ -92,7 +100,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div class="card border-info mt-5 pb-3 mx-3">
+              <div class="card border-info mt-5 pb-3 mx-3" id="forecast-box">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-6">
@@ -113,7 +121,15 @@
         </div>
       </div>
       <div class="vertical-text">
-        <p>Coded and designed by Elahe Najafian and open-sourced on GitHub</p>
+        <p>
+          Coded and designed by Elahe Najafian and
+          <a
+            href="https://github.com/Elahenajafian/Funky-Weather-App"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>
+        </p>
       </div>
     </div>
   </body>

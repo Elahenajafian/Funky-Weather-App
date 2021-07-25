@@ -6,13 +6,19 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background-color: #ddd;
+  background-color: #f6d186;
   min-width: 770px;
 }
 
 .container {
   max-width: 1200px;
   min-width: 1200px;
+  background-color: #fcf7bb;
+  padding-top: 2px;
+}
+
+#content-card {
+  background-color: #cbe2b0;
 }
 
 ul {
@@ -26,4 +32,35 @@ ul {
 
 :link {
   text-decoration: none;
+}
+
+#search-bar,
+#search-button {
+  font-size: 20px;
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+}
+
+#search-bar:hover {
+  background-color: #fcf7bb;
+}
+
+.btn {
+  color: #272727;
+  background-color: #f19292;
+}
+
+.btn:hover {
+  background-color: #fcf7bb;
+}
+
+#search-button {
+  background-color: ;
+}
+
+#current-weather-information {
+  background-color: #fcf7bb;
+}
+
+#forecast-box {
+  background-color: #fcf7bb;
 }
