@@ -6,7 +6,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background-color: #f6d186;
+  background-color: #eae7e7;
   min-width: 770px;
   padding-top: 13px;
 }
@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 1200px;
   min-width: 1200px;
-  background-color: #fcf7bb;
+  background-color: #eae7e7;
   margin-top: 10px;
   margin-bottom: 3px;
 }
@@ -43,45 +43,98 @@ ul {
 }
 
 #search-bar:hover {
-  background-color: #fcf7bb;
+  background-color: #f9f8eb;
 }
 
 .btn {
   color: #272727;
-  background-color: #f19292;
+  background-color: #76b39d;
   border: none;
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
 }
 
 .btn:hover {
-  background-color: #fcf7bb;
+  background-color: #eae7e7;
 }
 
 #content-card {
-  background-color: #cbe2b0;
+  background-color: #76b39d;
   border: none;
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
 }
 
 #search-button {
-  background-color: ;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eae7e7;
+}
+
+#search-button:hover {
+  background-color: #155e63;
 }
 
 #current-weather-information {
-  background-color: #fcf7bb;
+  background-color: #76b39d;
   border: none;
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
 }
 
 #forecast-box {
-  background-color: #fcf7bb;
+  background-color: #76b39d;
   border: none;
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+  padding-bottom: 40px;
 }
 
-#top-section {
-}
-
-#bottom-section {
-  margin-top: -35px;
+#forecast-inside {
+  padding-bottom: 30px;
 }
 
 #open-source {
-  color: #f19292;
+  color: #76b39d;
+}
+
+#current-city {
+  font-size: 55px;
+  color: #f9f8eb;
+  text-shadow: 2px 2px #155e63;
+}
+
+#celsious,
+#fahrenheit {
+  color: #f9f8eb;
+}
+
+#phw {
+  margin-top: 2px;
+  margin-bottom: -20px;
+  padding-bottom: 41px;
+}
+
+#precipitation {
+  font-size: 18px;
+  color: #155e63;
+}
+
+#humidity {
+  font-size: 18px;
+  color: #155e63;
+}
+
+#wind {
+  font-size: 18px;
+  color: #155e63;
+}
+
+.city-button {
+  font-size: 21px;
+  color: #155e63;
+}
+
+.city-button:hover {
+  color: #155e63;
+}
+
+#y {
+  margin-top: -1px;
 }

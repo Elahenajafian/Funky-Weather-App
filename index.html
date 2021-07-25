@@ -16,14 +16,14 @@
   </head>
   <body>
     <div class="container">
-      <div class="card border-info mt-4 mx-4" id="content-card">
-        <div class="card-body mx-1 mb-1">
-          <div class="row my-3" id="top-section">
+      <div class="card mt-4 mx-4" id="content-card">
+        <div class="card-body">
+          <div class="row">
             <div class="col-8">
               <div class="input-group">
                 <input
                   type="search"
-                  class="form-control mx-3 btn-outline-info py-4"
+                  class="form-control mx-3 py-4"
                   placeholder="Type a city..."
                   id="search-bar"
                 />
@@ -34,85 +34,70 @@
                 >
                   Search
                 </button>
+                <button
+                  type="button"
+                  class="btn mx-1 btn-outline-info py-4 px-3"
+                  id="celsious"
+                >
+                  C°
+                </button>
+                <button
+                  type="button"
+                  class="btn mx-1 btn-outline-info py-4 px-3"
+                  id="fahrenheit"
+                >
+                  F°
+                </button>
               </div>
             </div>
-            <div class="col-4 px-4">
-              <button type="button" class="btn mx-1 btn-outline-info py-4 px-3">
-                Primary
-              </button>
-              <button type="button" class="btn mx-1 btn-outline-info py-4 px-3">
-                Primary
-              </button>
-              <button type="button" class="btn mx-1 btn-outline-info py-4 px-3">
-                Primary
-              </button>
+
+            <div class="col-4">
+              <div class="card mx-3" id="forecast-box">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="card-body">
+                      <div class="gap-2">hi</div>
+                    </div>
+                  </div>
+                  <div class="col-6">icons</div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row" id="bottom-section">
-            <div class="col-4">
-              <div class="card-body mx-1 mt-5">
+          <div class="row" id="y">
+            <div class="col-3">
+              <div class="card-body">
                 <div class="d-grid gap-2">
-                  <button class="btn btn-outline-info py-3 fs-5" type="button">
+                  <button class="btn py-3 city-button" type="button">
                     Sydney
                   </button>
-                  <button
-                    class="btn btn-outline-info py-3 px-5 fs-5"
-                    type="button"
-                  >
+                  <button class="btn py-3 px-5 city-button" type="button">
                     Tokyo
                   </button>
-                  <button
-                    class="btn btn-outline-info py-3 px-5 fs-5"
-                    type="button"
-                  >
+                  <button class="btn py-3 px-5 city-button" type="button">
                     Paris
                   </button>
-                  <button
-                    class="btn btn-outline-info py-3 px-5 fs-5"
-                    type="button"
-                  >
+                  <button class="btn py-3 px-5 city-button" type="button">
                     London
                   </button>
-                  <button
-                    class="btn btn-outline-info py-3 px-5 fs-5"
-                    type="button"
-                  >
+                  <button class="btn py-3 px-5 city-button" type="button">
                     Dubai
                   </button>
                 </div>
               </div>
             </div>
 
-            <div class="col-4">
-              <div
-                class="card border-info mt-5"
-                id="current-weather-information"
-              >
-                <div class="card-body">
+            <div class="col-5">
+              <div class="card" id="current-weather-information">
+                <div class="card-body" id="phw">
                   <div class="row">
-                    <h5 class="card-title fs-1 my-5">Tehran</h5>
-                    <div class="my-3">Mostly sunny</div>
-                    <div class="mb-1 mt-5">Precipitation: 0%</div>
-                    <div class="my-1">Humidity: 19%</div>
-                    <div class="my-1">Wind: 18 km/h</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card border-info mt-5 pb-3 mx-3" id="forecast-box">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <ul>
-                        <li class="my-4 py-2">Sun</li>
-                        <li class="my-4 py-2">Mon</li>
-                        <li class="my-4 py-2">Tue</li>
-                        <li class="my-4 py-2">Wed</li>
-                        <li class="mt-4 pt-2">Thu</li>
-                      </ul>
+                    <h5 class="card-title my-5" id="current-city">Tehran</h5>
+                    <div id="weather-icon">Mostly sunny</div>
+                    <div class="mb-1 mt-5" id="precipitation">
+                      Precipitation: 0%
                     </div>
-                    <div class="col-6">icons</div>
+                    <div class="my-1" id="humidity">Humidity: 19%</div>
+                    <div class="my-1" id="wind">Wind: 18 km/h</div>
                   </div>
                 </div>
               </div>
@@ -122,13 +107,13 @@
       </div>
       <div class="vertical-text">
         <p>
-          Coded and designed by Elahe Najafian and
+          Coded and designed by Elahe Najafian and open-sourced on
           <a
             href="https://github.com/Elahenajafian/Funky-Weather-App"
             target="_blank"
             id="open-source"
           >
-            open-sourced on GitHub
+            GitHub
           </a>
         </p>
       </div>
