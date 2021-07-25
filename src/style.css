@@ -8,17 +8,15 @@ body {
   height: 100%;
   background-color: #f6d186;
   min-width: 770px;
+  padding-top: 13px;
 }
 
 .container {
   max-width: 1200px;
   min-width: 1200px;
   background-color: #fcf7bb;
-  padding-top: 2px;
-}
-
-#content-card {
-  background-color: #cbe2b0;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 
 ul {
@@ -36,8 +34,12 @@ ul {
 
 #search-bar,
 #search-button {
-  font-size: 20px;
+  font-size: 15px;
   box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+}
+
+#search-bar {
+  border: none;
 }
 
 #search-bar:hover {
@@ -47,10 +49,16 @@ ul {
 .btn {
   color: #272727;
   background-color: #f19292;
+  border: none;
 }
 
 .btn:hover {
   background-color: #fcf7bb;
+}
+
+#content-card {
+  background-color: #cbe2b0;
+  border: none;
 }
 
 #search-button {
@@ -59,8 +67,21 @@ ul {
 
 #current-weather-information {
   background-color: #fcf7bb;
+  border: none;
 }
 
 #forecast-box {
   background-color: #fcf7bb;
+  border: none;
+}
+
+#top-section {
+}
+
+#bottom-section {
+  margin-top: -35px;
+}
+
+#open-source {
+  color: #f19292;
 }
