@@ -15,10 +15,10 @@
     <script src="src/app.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="card mt-4 mx-4" id="content-card">
-        <div class="card-body">
-          <div class="row">
+    <div class="container mt-5">
+      <div class="card mx-auto" id="content-card" style="width: 670px">
+        <div class="card-body mx-auto" style="width: 970px">
+          <div class="row mt-2">
             <div class="col-8">
               <div class="input-group">
                 <input
@@ -34,38 +34,11 @@
                 >
                   Search
                 </button>
-                <button
-                  type="button"
-                  class="btn mx-1 btn-outline-info py-4 px-3"
-                  id="celsious"
-                >
-                  C°
-                </button>
-                <button
-                  type="button"
-                  class="btn mx-1 btn-outline-info py-4 px-3"
-                  id="fahrenheit"
-                >
-                  F°
-                </button>
-              </div>
-            </div>
-
-            <div class="col-4">
-              <div class="card mx-3" id="forecast-box">
-                <div class="row">
-                  <div class="col-6">
-                    <div class="card-body">
-                      <div class="gap-2">hi</div>
-                    </div>
-                  </div>
-                  <div class="col-6">icons</div>
-                </div>
               </div>
             </div>
           </div>
           <div class="row" id="y">
-            <div class="col-3">
+            <div class="col-3 mt-2">
               <div class="card-body">
                 <div class="d-grid gap-2">
                   <button class="btn py-3 city-button" type="button">
@@ -88,16 +61,20 @@
             </div>
 
             <div class="col-5">
-              <div class="card" id="current-weather-information">
+              <div class="card mt-4 mb-2" id="current-weather-information">
                 <div class="card-body" id="phw">
                   <div class="row">
-                    <h5 class="card-title my-5" id="current-city">Tehran</h5>
-                    <div id="weather-icon">Mostly sunny</div>
-                    <div class="mb-1 mt-5" id="precipitation">
+                    <div class="col-sm-6">
+                      <h5 class="card-title my-5" id="current-city">Tehran</h5>
+                    </div>
+                    <div class="col-sm-6">
+                      <div id="weather-icon">Mostly sunny</div>
+                    </div>
+                    <div class="mb-2 mt-5" id="precipitation">
                       Precipitation: 0%
                     </div>
-                    <div class="my-1" id="humidity">Humidity: 19%</div>
-                    <div class="my-1" id="wind">Wind: 18 km/h</div>
+                    <div class="my-2" id="humidity">Humidity: 19%</div>
+                    <div class="my-2 mb-4" id="wind">Wind: 18 km/h</div>
                   </div>
                 </div>
               </div>
@@ -105,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="vertical-text">
+      <div class="vertical-text mx-5">
         <p>
           Coded and designed by Elahe Najafian and open-sourced on
           <a
